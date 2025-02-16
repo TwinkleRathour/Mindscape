@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/32966b6d49.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/ml.css') }}">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div id="home"><a href="{{ url_for('index') }}" class="decoration"><i class="fa-solid fa-house" id="house"></i></a></div>
+        <div class="icons">
+            <a href="{{ url_for('index') }}" class="decoration">home</a>&nbsp;
+            <a href="{{ url_for('ai') }}" class="decoration">AI</a>
+            <a href="{{ url_for('project') }}" class="decoration">Crafts & Diy</a>
+        </div>
+        <div>Explore search</div>
+        <div class="searchbrowse"><label for="search"><input type="search" id="search" placeholder="Search"></label></div>
+         
+    </div>
+
+    <div>
+        <div id="box1">
+            <!-- first -->
+            <div id="pic1" class="motion shadow_box text_control">
+                <h3 id="video_text1" class="font_color">Interacting AI with Machine Learning</h3>
+                <p id="video_text2" class="font_color">Start today and improve your skills. Help out yourself and the AI
+                    by getting taught with Machine Learning
+                </p>
+                <label for="button"></label>
+                <input type="button" value="Start for Free" id="button">
+            </div>
+            <!-- second  -->
+            <div id="box2" class="motion shadow_box text_control">
+                <div id="pic2" class=""></div>
+                <div id="pic3"></div>
+                <div id="video_link" class="font_videos">
+                    <a class="link_change" href="https://youtu.be/0z6AhrOSrRs" target="_blank">Start your journey in
+                        learning Mathematical Machine Learning</a>
+                    <br>
+                    <div>
+                        <span class="view">79,597 views</span>
+                        <span class="material-symbols-outlined bookmark">
+                            bookmark
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- third  -->
+        <h2>Featured Machine Learning Classes</h2>
+        <div class="bg_color">
+            <div class="flexxing text_control">
+                <div class="change motion shadow_box">
+                    <div id="pic4" class="upper_part"></div>
+                    <div class="font_videos lower_part">
+                        <a href="https://youtu.be/i_LwzRVP7bg" class="font_videos"
+                            target="_blank">Insights on Business Application</a>
+                        <div>
+                            <span class="view">91,577 views</span>
+                            <span class="material-symbols-outlined bookmark">
+                                bookmark
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="change motion shadow_box">
+                    <div id="pic5" class="upper_part"></div>
+                    <div class="font_videos lower_part">
+                        <a href="https://youtu.be/8JIe_cz6qGA" class="font_videos"
+                            target="_blank">Hypothesis Testing with Machine Learning</a>
+                        <div>
+                            <span class="view">43,246 views</span>
+                            <span class="material-symbols-outlined bookmark">
+                                bookmark
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="change motion shadow_box">
+                    <div id="pic6" class="upper_part"></div>
+                    <div class="font_videos lower_part">
+                        <a href="https://youtu.be/FNLLxYcUnow" class="font_videos" target="_blank">
+                            Exploratory Data Analysis Learning</a>
+                        <div>
+                            <span class="view">60,201 views</span>
+                            <span class="material-symbols-outlined bookmark">
+                                bookmark
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fourth  -->
+        <h2>Popular Machine Learning Classes</h2>
+        <div class="bg_color">
+            <div class="flexxing text_control">
+                <div class="change motion shadow_box">
+                    <div id="pic7" class="upper_part"></div>
+                    <div class="font_videos lower_part">
+                        <a href="https://youtu.be/Up6KLx3m2ww" class="font_videos" target="_blank">
+                            Applications of Machine Learning Algorithms</a>
+                        <div>
+                            <span class="view">259,087 views</span>
+                            <span class="material-symbols-outlined bookmark">
+                                bookmark
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="change motion shadow_box">
+                    <div id="pic8" class="upper_part"></div>
+                    <div class="font_videos lower_part">
+                        <a href="https://youtu.be/LbX4X71-TFI" class="font_videos" target="_blank">
+                            Machine Learning Model Evaluation Learning</a>
+                        <div>
+                            <span class="view">139,457 views</span>
+                            <span class="material-symbols-outlined bookmark">
+                                bookmark
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="change motion shadow_box">
+                    <div id="pic9" class="upper_part"></div>
+                    <div class="font_videos lower_part">
+                        <a href="https://youtu.be/eI9Ze4kOkC8" class="font_videos" target="_blank">Data
+                            Wrangling in Machine Learning</a>
+                        <div>
+                            <span class="view">99,357 views</span>
+                            <span class="material-symbols-outlined bookmark">bookmark</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3>Get ahead with Machine Learning</h3>
+        <p>
+            If you’re interested in pursuing a career in machine learning, you may be wondering about the salary and
+            career options available to you. Machine learning professionals are in high demand and can earn competitive
+            salaries. According to Glassdoor, the average base pay for a machine learning engineer in the United States
+            is around $114,000 per year, with some earning well over $150,000 per year. The field also offers a variety
+            of career paths, including roles such as Data Scientist, Machine Learning Engineer, and AI researcher.
+        </p>
+    </div>
+</body>
+
+</html>

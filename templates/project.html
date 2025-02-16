@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafts & DIY</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a href="{{ url_for('index') }}" class="home"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="{{ url_for('index') }}" class="home">Home</a></li>
+                <li><a href="{{ url_for('ai') }}" class="home">AI</a></li>
+                <li><a href="{{ url_for('ml') }}" class="home">ML</a></li>
+                <li><a href="{{ url_for('project') }}" class="home">Crafts & Diy</a></li>
+                <li><a href="" class="explore">Explore Courses</a></li>
+                <li><label for="search"><input type="search" id="search" placeholder="Search"></label></li>
+                <li><a href="#about us" id="ff">About Us</a></li>
+                <li><a href="{{ url_for('signup') }}" class="signup-btn"><span>Sign Up</span></a></li>
+            </ul>
+        </div>
+        
+        <h1>Crafts & DIY Content Coming Soon</h1>
+    </div>
+</body>
+</html>

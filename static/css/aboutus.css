@@ -1,0 +1,154 @@
+/* Reset and General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-color: black;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url(/WhatsApp\ Image\ 2024-09-24\ at\ 2.12.17\ AM.jpeg);
+    color: black;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero .btn {
+    background-color: black;
+    color: lime;
+    padding: 0.8rem 1.5rem;
+    border: 2px solid lime;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .hero .btn:hover {
+    background-color: lime;
+    color: black;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 50px;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  /* Why Choose Us Section */
+  .why-choose {
+    background-color: #222;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .why-choose h2 {
+    font-size: 2.5rem;
+    color: lime;
+    margin-bottom: 1.5rem;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .feature {
+    background-color: black;
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .feature h3 {
+    color: lime;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Team Section */
+  .team {
+    padding: 2rem 0;
+  }
+  
+  .team h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 60px;
+  }
+  
+  .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .team-member {
+    background-color:black;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 2px solid white;
+    width: 300px;
+    box-shadow: 0px 0px 10px lime;
+  }
+  
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .team-member h3 {
+    color: lime;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: black;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .footer p {
+    color: lime;
+  }
+  
+  .aa{
+    font-size: x-large;
+   
+  }

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/32966b6d49.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/ai.css') }}">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div id="home"><a href="{{ url_for('index') }}" class="decoration"><i class="fa-solid fa-house" id="house"></i></a></div>
+        <div class="icons">
+            <a href="{{ url_for('index') }}" class="decoration">home</a>
+            <a href="{{ url_for('ml') }}" class="decoration">ML</a>&nbsp;
+            <a href="{{ url_for('project') }}" class="decoration">Crafts & Diy</a>
+        </div>
+        
+        
+        <div>Explore search</div>
+        <div class="searchbrowse"><label for="search"><input type="search" id="search" placeholder="Search"></label></div>
+        <div id="signup"><a href="{{ url_for('signup') }}" class="signup-btn"><span>Sign Up</span></a></div>
+         
+    </div>
+
+    <div>
+        <div id="box1">
+            <!-- first -->
+            <div id="pic1" class="motion shadow_box text_control">
+                <h3 id="video_text1" class="font_color">Online AI & Innovative Classes</h3>
+                <p id="video_text2" class="font_color">Find what fascinates you as you explore these AI & Innovation
+                    classes.
+                </p>
+                <label for="button"></label>
+                <input type="button" value="Start for Free" id="button">
+            </div>
+            <!-- second  -->
+            <div id="box2" class="motion shadow_box text_control">
+                <div id="pic2" class=""></div>
+                <div id="pic3"></div>
+                <div id="video_link" class="font_videos">
+                    <a class="link_change" href="https://youtu.be/PGMfv8VttlQ" target="_blank">Canva Magic Studio:
+                        Complete Guide for stunning Ideas, Designs, Videos and
+                        Presentations</a>
+                    <br>
+                    <div>
+                        <span class="view">139,594 views</span>
+                        <span class="material-symbols-outlined bookmark">
+                        bookmark
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- third  -->
+        <h2>Featured AI & Innovation Classes</h2>
+        <div class="bg_color">
+            <div class="flexxing text_control">
+                <div class="change motion shadow_box">
+                    <div id="pic4" class="upper_part"></div>
+                    <div class="font_videos lower_part">
+                        <a href="https://youtu.be/MqffbpjhriQ" class="font_videos"
+                            target="_blank">Artificial Intelligence
+                            for Beginners</a>
+                        <div>
+                            <span class="view">20,567 views</span>
+                            <span class="material-symbols-outlined bookmark">
+                                bookmark
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="change motion shadow_box">
+                    <div id="pic5" class="upper_part"></div>
+                    <div class="font_videos lower_part">
+                        <a href="https://youtu.be/zqVtHYFYQY8" class="font_videos"
+                            target="_blank">Artificial Intelligence:
+                            How ChatGpt Works</a>
+                        <div>
+                            <span class="view">45,245 views</span>
+                            <span class="material-symbols-outlined bookmark">
+                                bookmark
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="change motion shadow_box">
+                    <div id="pic6" class="upper_part"></div>
+                    <div class="font_videos lower_part">
+                        <a href="https://youtu.be/jCoH82LPgdk" class="font_videos" target="_blank">How
+                            to
+                            build Chatbots with the help of AI</a>
+                        <div>
+                            <span class="view">67,255 views</span>
+                            <span class="material-symbols-outlined bookmark">
+                                bookmark
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fourth  -->
+        <h2>Popular AI & Innovation Classes</h2>
+        <div class="bg_color">
+            <div class="flexxing text_control">
+                <div class="change motion shadow_box">
+                    <div id="pic7" class="upper_part"></div>
+                    <div class="font_videos lower_part">
+                        <a href="https://youtu.be/JTxsNm9IdYU" class="font_videos"
+                            target="_blank">Basics
+                            of
+                            ChatGpt with the help of AI in 30mins</a>
+                        <div>
+                            <span class="view">29,187 views</span>
+                            <span class="material-symbols-outlined bookmark">
+                                bookmark
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="change motion shadow_box">
+                    <div id="pic8" class="upper_part"></div>
+                    <div class="font_videos lower_part">
+                        <a href="https://youtu.be/8I3NTE4cn5s" class="font_videos" target="_blank">How
+                            to use AI
+                            art and ChatGpt in just 20mins</a>
+
+                        <div>
+                            <span class="view">39,257 views</span>
+                            <span class="material-symbols-outlined bookmark">
+                                bookmark
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="change motion shadow_box">
+                    <div id="pic9" class="upper_part"></div>
+                    <div class="font_videos lower_part">
+                        <a href="https://youtu.be/d6IGHUCZQOI" class="font_videos" target="_blank">How
+                            to
+                            Create your own music with AI</a>
+                        <div>
+                            <span class="view">89,357 views</span>
+                            <span class="material-symbols-outlined bookmark">bookmark</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3>Explore Your Creativity</h3>
+        <p>
+            Unleash your imagination and discover new possibilities with our diverse range of classes and resources.
+            Whether you're a beginner or an experienced creator, our platform offers a vibrant community where you
+            can
+            learn, experiment, and grow. From design and art to writing and technology, find inspiration and develop
+            your unique style. Join us today to ignite your passion and transform your ideas into reality. Embrace
+            the
+            journey of creativity and watch your potential unfold! Start exploring now and let your creativity
+            shine!
+        </p>
+    </div>
+</body>
+
+</html>

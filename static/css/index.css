@@ -1,0 +1,395 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow: auto;
+}
+
+body {
+    background-color:black;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+
+.menu ul {
+    display: inline-flex;
+    margin:7.5px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: xx-large;
+
+}
+
+.menu ul li {
+    display: inline-flex;
+    margin: 0 15px;
+    list-style: none;
+    color: antiquewhite
+}
+
+.menu ul li i {
+    color: lime;
+}
+
+.menu ul li select {
+    font-family: "Bebas Neue", sans-serif;
+    box-sizing: content-box;
+    font-size: xx-large;
+
+}
+
+.menu ul li input {
+    font-family: "Bebas Neue", sans-serif;
+    box-sizing: content-box;
+    font-size: xx-large;
+    text-align: left;
+}
+
+.signup-btn, .logout-btn {
+    top: 7.25px;
+    right: 60px;
+    position: absolute;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    border: 2px black;
+    border-radius: 3px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-sizing: border-box;
+    color: black;
+}
+
+.signup-btn {
+    background-color: lime;
+}
+
+.logout-btn {
+    background-color: lime;
+    right: 70px;
+}
+
+.signup-btn span, .logout-btn span {
+    display: block;
+    padding: 6px 16.5px;
+}
+
+
+.explore {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.home {
+    color: antiquewhite;
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none;
+
+
+}
+
+.image-marquee {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+img {
+    height: 378.75px;
+    width: 528.75px;
+
+}
+
+marquee {
+    scroll-behavior: smooth;
+    animation: marquee 2s linear infinite;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.art {
+    height: 378.75px;
+    width:  378.75px;
+}
+
+.html-image {
+    height:  378.75px;
+    width: 603.75px;
+}
+
+.center-part img {
+    height:  378.75px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+
+.central-image {
+    height: 750px;
+    width: 100%;
+
+
+}
+
+.creative-learning {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    height: 225px;
+    width: 525px;
+    font-size: 82.5px;
+
+    position: relative;
+    left: 5%;
+    top: 112.5px;
+
+
+}
+
+.creative-text {
+    height: 100%;
+    width: 412.5px;
+    font-size: 30px;
+
+    position: relative;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: inline;
+    left: 45%;
+    bottom: 112.5px;
+}
+
+.box {
+    height: 187.5px;
+    width: 100%;
+    display: inline-flex;
+
+}
+
+.classes {
+    height: 150px;
+    width: 300px;
+    background-color: rgba(90, 90, 90, 0.928);
+    border-radius: 11.25px;
+    position: relative;
+    left: 3%
+}
+
+.members {
+    height: 150px;
+    width: 300px;
+    background-color: rgba(90, 90, 90, 0.928);
+    border-radius: 11.25px;
+    position: relative;
+    left: 6%;
+
+
+}
+
+.teachers {
+    height: 150px;
+    width: 300px;
+    background-color: rgba(90, 90, 90, 0.928);
+    border-radius: 11.25px;
+    position: relative;
+    left: 9%;
+
+}
+
+.rating {
+    height: 150px;
+    width: 412.5px;
+    background-color: rgba(90, 90, 90, 0.928);
+    border-radius: 11.25px;
+    position: relative;
+    left: 12%;
+    right: 3%;
+}
+
+.k {
+    color: lime;
+    font-size: 52.5px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+
+
+}
+
+.class {
+    /* padding-bottom:30%; */
+    color: white;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+
+}
+
+li::marker {
+    color: lime;
+}
+
+.question {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+hr {
+    color: lime;
+    width: 70%;
+}
+
+summary {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 37.5px;
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-bottom: 3%;
+
+
+}
+
+p {
+    color: white;
+    font-size: 30px;
+}
+
+summary::marker {
+    color: lime;
+
+}
+
+.abc {
+    height: 337.5px;
+    width: 300px;
+    background-color: white;
+    margin-bottom: 37.5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightpink;
+    margin-top: 30px;
+    margin-left: 15px;
+    transition: box-shadow 0.4s ease, transform 0.3s ease;
+}
+
+.abc:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.abc iframe{
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.abc iframe:hover{
+    transform: scale(1.1);
+}
+
+.dabba {
+    display: flex;
+
+    justify-content: center;
+    position: relative;
+    top: 7.5px;
+    background-color: blueviolet;
+    height: 375px;
+
+
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    position: relative;
+    top: 37.5px;
+    padding-top: 150px;
+}
+
+iframe {
+    height: 225px;
+    width: 300px;
+    border-radius:  10px 10px 0px 0px;
+}
+h3{
+    font-family: "Poppins", sans-serif;
+    padding-left: 2%;
+    font-size: 15px;
+}
+
+
+h4{
+    font-family: "Poppins", sans-serif;
+    padding-left: 4%;
+    font-size: 11.25px;
+    display: inline;
+}
+.about-us{
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+
+h4{
+    font-family: "Poppins", sans-serif;
+    padding-left: 4%;
+    font-size: 15px;
+    display: inline;
+}
+.aboutus img{
+    
+    height: 190vh;
+    width: 100%;
+}
+.hello{
+    font-family: "Poppins", sans-serif;
+    font-size: 110px;
+    color:white;
+    padding-bottom: 30%;
+    
+}
+.aboutus{
+    background-image: url(/Screenshot\ 2024-09-25\ 144959.png);
+    height: 180vh;
+    width: 100%;
+    text-align: center;
+    
+}
+.aboutus h1{
+    color: black;
+    font-size: 5vh;
+   text-align: center;
+
+}
+.aboutus h2{
+    color: black;
+    position: relative;
+    bottom:50vh;
+    font-size: 2vh;
+    font-family: "Poppins", sans-serif;
+    top: 8vh;
+    text-align: center;
+    
+
+
+}
+
+.join{
+    font-size: 3vh;
+    text-align: center;
+}
+.aboutus>h1{
+    text-align: center;
+}
+#mm{
+    position: relative;
+    left: 3vh;
+    
+}
+#ff{
+    text-decoration: none;
+    color: antiquewhite;
+}
