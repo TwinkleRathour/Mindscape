@@ -5,16 +5,16 @@ body{
   align-items: center;
   min-height: 100vh;
   font-family: 'Jost' , sans-serif;
-  background: linear-gradient(to bottom, #0f0c29,#830df8, #24243e);
+  background: linear-gradient(to bottom, #0f0c29,#a1efc0, #24243e);
   display: flex;
   }
   
 .main{ 
   width: 350px;
   height: 500px;
-  background: red;
+  background: rgb(164, 248, 163);
   overflow: hidden;
-  background: url("https://img.freepik.com/premium-photo/headphones-with-music-notes-headband-purple-background_1204450-18453.jpg") no-repeat center / cover;
+  background-color: cadetblue; 
   border-radius: 10px;
   box-shadow: 5px 20px 50px #000;
   opacity: 0.9;
@@ -60,7 +60,7 @@ button{
   margin: 10px auto;
   justify-content: center;
   color: #ffffff;
-  background: #573b8a;
+  background: #9be38b;
   font-size: 1em;
   font-weight: bold;
   margin-top: 20px;
@@ -72,7 +72,7 @@ button{
 }
 
 button:hover{
-  background: #6d44b8;
+  background: #83ed5f;
 }
 .login{
   height: 460px;
@@ -83,7 +83,7 @@ button:hover{
 }
 
 .login label{
-  color:#573b8a;
+  color:#93f491;
   transform: scale(0.6);
 }
 
